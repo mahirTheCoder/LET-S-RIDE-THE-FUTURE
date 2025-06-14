@@ -45,6 +45,29 @@ p {
 
 }
 
+.commonHead h2 {
+  width: 487px;
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+  padding-bottom: 34px;
+  margin: 0 auto;
+}
+
+.commonHead p {
+  width: 598px;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+  margin: 0 auto;
+}
+
+.commonHead {
+  text-align: center;
+}
+
 
 /* -------------common css end------------------------- */
 
@@ -147,7 +170,6 @@ h1 {
   color: var(--textColor);
   background: var(--textColor);
   -webkit-background-clip: text;
-
   -webkit-text-fill-color: transparent;
   overflow: hidden;
   white-space: nowrap;
@@ -396,7 +418,56 @@ h1 {
 /* -------------counterPlugin css end------------------------- */
 
 /* ------------- Product css start------------------------- */
+#Product {
+  margin-top: 130px;
+}
 
+/* .productText p {
+  
+} */
+
+/* .productText {
+  display: flex;
+  gap: 18px;
+  margin-top: 44px;
+  margin-bottom: 44px;
+  justify-content: end;
+} */
+
+.productImagesText {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 44px;
+}
+
+.productImagesText img {
+  width: 49px;
+  height: 49px;
+}
+
+.productImagesText p {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+}
+
+.imgTextBoth {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-top: 143px;
+  position: relative;
+}
+
+.productImges {
+  min-width: 748px;
+  height: 706px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 /* ------------- Product css end------------------------- */
 
