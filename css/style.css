@@ -80,6 +80,15 @@ p {
   font-family: var(--fantFamily);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   padding: 16px 26px;
+  transition: all linear 0.4s;
+}
+
+.buttons a:hover:nth-child(1) {
+  color: #FFF;
+  background: #000;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
 }
 
 .buttons a:nth-child(2) {
@@ -93,19 +102,303 @@ p {
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   padding: 16px 26px;
   margin-left: 25px;
+  transition: all linear 0.4s;
 }
 
 
+.buttons a:hover:nth-child(2) {
+  color: var(--textColor);
+  background: #FFF;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+
+}
+
 /* -------------nav bar css end------------------------- */
 
-/* -------------nav bar css start------------------------- */
-/* -------------nav bar css end------------------------- */
+/* -------------Banneer part css start------------------------- */
+#banner {
+  margin-top: 31px;
+  position: relative;
+}
 
-/* -------------nav bar css start------------------------- */
-/* -------------nav bar css end------------------------- */
+.bannerTextPart h2 {
+  font-size: 90px;
+  font-weight: 300;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+  text-transform: uppercase;
+  line-height: 95px;
+  letter-spacing: 1%;
+  padding-top: 53px;
+}
 
-/* -------------nav bar css start------------------------- */
-/* -------------nav bar css end------------------------- */
+
+h1 {
+  max-width: 586px;
+  font-size: 90px;
+  font-weight: 700;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+  text-transform: uppercase;
+  line-height: 95px;
+  letter-spacing: 1%;
+  color: var(--textColor);
+  background: var(--textColor);
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid;
+  animation: type 2s steps(90) 1s 1 normal both, cursor 1s step-end infinite;
+  position: relative;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+.underLine {
+  max-width: 335px;
+  height: 4px;
+  background: var(--textColor);
+  margin-top: 93px;
+}
+
+.bannerTextPart h3 {
+  max-width: 353px;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+  line-height: 34px;
+  letter-spacing: 1%;
+  padding-top: 62px;
+  padding-bottom: 44px;
+}
+
+.bothText {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 160px;
+}
+
+.animated-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 16px 36px;
+  border: 4px solid var(--textColor);
+  /* border-color: transparent; */
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #FFF;
+  font-family: var(--fantFamily);
+  border-radius: 100px;
+  color: #1f387e;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button svg {
+  position: absolute;
+  width: 24px;
+  fill: #1f387e;
+  z-index: 9;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .arr-1 {
+  right: 16px;
+}
+
+.animated-button .arr-2 {
+  left: -25%;
+}
+
+.animated-button .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .text {
+  position: relative;
+  z-index: 1;
+  transform: translateX(-12px);
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button:hover {
+  box-shadow: 0 0 0 12px transparent;
+  color: #FFF;
+  background: pink;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+.animated-button:hover .arr-1 {
+  right: -25%;
+}
+
+.animated-button:hover .arr-2 {
+  left: 16px;
+}
+
+.animated-button:hover .text {
+  transform: translateX(12px);
+}
+
+.animated-button:hover svg {
+  fill: #FFF;
+}
+
+.animated-button:active {
+  scale: 0.95;
+  box-shadow: 0 0 0 4px greenyellow;
+}
+
+.animated-button:hover .circle {
+  width: 220px;
+  height: 220px;
+  opacity: 1;
+}
+
+.bothText .text p {
+  width: 87px;
+  height: 75px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+  line-height: 25px;
+}
+
+.buyNowImg {
+  position: relative;
+
+}
+
+.buyNowImg img {
+  max-width: 80px;
+  height: 80px;
+  animation: round 4s linear infinite;
+}
+
+@keyframes round {
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 360deg;
+  }
+}
+
+
+.buyNowImg button {
+  background: transparent;
+  border: none;
+  font-size: 12px;
+  position: absolute;
+  top: 33px;
+  left: 45%;
+  z-index: 1;
+}
+
+.BannerImages {
+  max-width: 856px;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+
+
+/* -------------Banneer part css end------------------------- */
+
+
+
+
+/* -------------counterPlugin css start------------------------- */
+
+
+#counterPlugin {
+  margin-top: 157px;
+}
+
+.counterPartone {
+  width: 174px;
+  height: 137px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  /* border: 1px solid #F4F4F4; */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.counterPartone h2 span {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+}
+
+.counterPartone h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+}
+
+.counterPartone p {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+  margin-top: 18px;
+}
+
+.allCounter {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* -------------counterPlugin css end------------------------- */
+
+/* ------------- Product css start------------------------- */
+
+
+/* ------------- Product css end------------------------- */
 
 /* -------------nav bar css start------------------------- */
 /* -------------nav bar css end------------------------- */
