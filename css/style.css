@@ -46,7 +46,7 @@ p {
 }
 
 .commonHead h2 {
-  width: 487px;
+  max-width: 487px;
   font-size: 50px;
   font-weight: 700;
   color: var(--textColor);
@@ -56,7 +56,7 @@ p {
 }
 
 .commonHead p {
-  width: 598px;
+  max-width: 598px;
   font-size: 20px;
   font-weight: 400;
   color: var(--textColor);
@@ -108,7 +108,7 @@ p {
 
 .buttons a:hover:nth-child(1) {
   color: #FFF;
-  background: #000;
+  background: var(--textColor);
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
@@ -263,7 +263,7 @@ h1 {
   transform: translate(-50%, -50%);
   width: 20px;
   height: 20px;
-  background-color: #000;
+  background-color: var(--textColor);
   border-radius: 50%;
   opacity: 0;
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
@@ -279,7 +279,7 @@ h1 {
 .animated-button:hover {
   box-shadow: 0 0 0 12px transparent;
   color: #FFF;
-  background: pink;
+  background: ;
   border-radius: 50px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 
@@ -415,6 +415,7 @@ h1 {
   justify-content: space-between;
 }
 
+
 /* -------------counterPlugin css end------------------------- */
 
 /* ------------- Product css start------------------------- */
@@ -422,17 +423,6 @@ h1 {
   margin-top: 130px;
 }
 
-/* .productText p {
-  
-} */
-
-/* .productText {
-  display: flex;
-  gap: 18px;
-  margin-top: 44px;
-  margin-bottom: 44px;
-  justify-content: end;
-} */
 
 .productImagesText {
   display: flex;
@@ -471,20 +461,74 @@ h1 {
 
 /* ------------- Product css end------------------------- */
 
-/* -------------nav bar css start------------------------- */
-/* -------------nav bar css end------------------------- */
+/* -------------effeciency css start------------------------- */
+#Efficiency {
+  margin-top: 126px;
+}
 
-/* -------------nav bar css start------------------------- */
-/* -------------nav bar css end------------------------- */
+.updateOne h2 {
+  max-width: 520px;
+}
 
-/* -------------nav bar css start------------------------- */
-/* -------------nav bar css end------------------------- */
+.updateOne p {
+  max-width: 684px;
+  padding-bottom: 49px;
+}
 
-/* -------------nav bar css start------------------------- */
-/* -------------nav bar css end------------------------- */
+/* -------------effeciency css end------------------------- */
 
-/* -------------nav bar css start------------------------- */
-/* -------------nav bar css end------------------------- */
+/* -------------Accessories css start-------------------- */
+#Accessories {
+  padding-top: 315px;
+}
 
-/* -------------nav bar css start------------------------- */
-/* -------------nav bar css end------------------------- */
+.updateTwo h2 {
+  max-width: 495px;
+}
+
+.updateTwo p {
+  max-width: 595px;
+  margin-bottom: 112px;
+}
+
+.multipleText h2 {
+  max-width: 334px;
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+  margin-bottom: 33px;
+}
+
+.IagesText img {
+  width: 49px;
+  height: 49px;
+}
+
+.IagesText p {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+}
+
+.IagesText {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 33px;
+}
+
+/* -------------Accessories css end------------------- */
+
+/* ------------- css start------------------------- */
+/* ------------ css end------------------------- */
+
+/* ------------ css start------------------------- */
+/* ------------ css end------------------------- */
+
+/* ------------- css start------------------------- */
+/* ------------- css end------------------------- */
+
+/* ------------ css start------------------------- */
+/* ------------- css end------------------------- */
