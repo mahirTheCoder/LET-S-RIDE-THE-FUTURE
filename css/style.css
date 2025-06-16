@@ -566,14 +566,191 @@ h1 {
 
 /* -------------Accessories css end------------------- */
 
-/* ------------- css start------------------------- */
+/* -------------galary css start------------------------- */
+
+#Gallery {
+  padding-top: 127px;
+  padding-bottom: 128px;
+}
+
+
+.updateThree h2 {
+  max-width: 174px;
+}
+
+.updateThree p {
+  max-width: 675px;
+  margin-bottom: 112px;
+}
+
+.buttonGalary {
+  max-width: 570px;
+  height: 94px;
+  border: 2px solid var(--textColor);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.buttonGalary a {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+
+}
+
+.scooterImg {
+  padding-top: 190px;
+  padding-bottom: 55px;
+}
+
+.galaryTextImg .buttonGalary {
+  margin-top: 27px;
+}
+
+.qualityPicture {
+  padding-bottom: 96px;
+}
+
 /* ------------ css end------------------------- */
 
-/* ------------ css start------------------------- */
-/* ------------ css end------------------------- */
+/* ------------ css Colors start------------------------- */
+#Colors {
+  padding-top: 207px;
 
-/* ------------- css start------------------------- */
-/* ------------- css end------------------------- */
+}
+
+.updateFour h2 {
+  max-width: 233px;
+
+}
+
+
+.bannerImg {
+  background-image: url(../images/colorbanner.png);
+  height: 767px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.colorBannerImges {
+  position: relative;
+}
+
+.updateFour p {
+  max-width: 334px;
+  margin-bottom: 152px;
+}
+
+.colorAllimages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 88px;
+  position: absolute;
+  bottom: -132px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+
+
+.colorAllimages img {
+  width: 246px;
+  height: 264px;
+
+}
+
+/* ------------ css Colors end------------------------- */
+
+/* -------------Testimonials css start------------------------- */
+#Testimonials {
+  background: #FAFAFA;
+  height: 712px;
+  margin-top: 366px;
+}
+
+.testimonialtext h2 {
+
+  max-width: 303px;
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+  padding-top: 78px;
+  margin: 0 auto;
+  padding-bottom: 41px;
+
+}
+
+
+.slidertext {
+  max-width: 360px;
+  height: 366px;
+  border: 1px solid #D8D8D8;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 10px;
+
+}
+
+
+.star {
+  text-align: center;
+  padding-top: 52px;
+  padding-bottom: 12px;
+}
+
+.star button {
+  border: none;
+  background: transparent;
+  color: #FE8B75;
+  font-size: 18px;
+
+}
+
+
+.slidertext p {
+  width: 304px;
+  height: 140px;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+  margin: 0 auto;
+  padding-bottom: 54px;
+
+}
+
+
+
+.sliderText h6 {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+}
+
+.sliderText p {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+}
+
+
+
+
+
+
+/* -------------Testimonials css end------------------------- */
+
+
+
 
 /* ------------ css start------------------------- */
 /* ------------- css end------------------------- */
