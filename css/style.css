@@ -151,6 +151,7 @@ p {
   position: relative;
 }
 
+
 .bannerTextPart h2 {
   font-size: 90px;
   font-weight: 300;
@@ -308,7 +309,6 @@ h1 {
 
 .animated-button:active {
   scale: 0.95;
-  box-shadow: 0 0 0 4px greenyellow;
 }
 
 .animated-button:hover .circle {
@@ -421,7 +421,7 @@ h1 {
 }
 
 .xCustomised {
-    width: 174px;
+  width: 174px;
   height: 137px;
   display: flex;
   flex-direction: column;
@@ -618,7 +618,6 @@ h1 {
 .updateThree p {
   max-width: 675px;
   padding-top: 30px;
-  margin-bottom: 112px;
 }
 
 .buttonGalary {
@@ -641,7 +640,7 @@ h1 {
 }
 
 .scooterImg {
-  padding-top: 190px;
+  padding-top: 300px;
   padding-bottom: 55px;
 }
 
@@ -650,6 +649,7 @@ h1 {
 }
 
 .qualityPicture {
+  padding-top: 112px;
   padding-bottom: 96px;
 }
 
@@ -686,6 +686,8 @@ h1 {
 }
 
 .colorAllimages {
+  width: 246px;
+  height: 264px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -698,11 +700,7 @@ h1 {
 
 
 
-.colorAllimages {
-  width: 246px;
-  height: 264px;
 
-}
 
 /* ------------ css Colors end------------------------- */
 
