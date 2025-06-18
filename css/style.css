@@ -12,6 +12,8 @@
   box-sizing: border-box;
 }
 
+
+
 img {
   width: 100%;
   max-width: 100%;
@@ -51,8 +53,11 @@ p {
   font-weight: 700;
   color: var(--textColor);
   font-family: var(--fantFamily);
-  padding-bottom: 34px;
   margin: 0 auto;
+}
+
+.update p {
+  padding-top: 34px;
 }
 
 .commonHead p {
@@ -415,6 +420,36 @@ h1 {
   justify-content: space-between;
 }
 
+.xCustomised {
+    width: 174px;
+  height: 137px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  /* border: 1px solid #F4F4F4; */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  justify-content: center;
+  align-items: center;
+}
+
+.xCustomised h2 {
+  display: flex;
+}
+
+.xCustomised h2 p {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+  margin-bottom: 18px;
+}
+
+
+
+
+
+
+
 
 /* -------------counterPlugin css end------------------------- */
 
@@ -472,6 +507,7 @@ h1 {
 
 .updateOne p {
   max-width: 684px;
+  padding-top: 34px;
   padding-bottom: 49px;
 }
 
@@ -488,6 +524,7 @@ h1 {
 
 .updateTwo p {
   max-width: 595px;
+  padding-top: 34px;
   margin-bottom: 112px;
 }
 
@@ -580,6 +617,7 @@ h1 {
 
 .updateThree p {
   max-width: 675px;
+  padding-top: 30px;
   margin-bottom: 112px;
 }
 
@@ -625,7 +663,7 @@ h1 {
 
 .updateFour h2 {
   max-width: 233px;
-
+  padding-bottom: 19px;
 }
 
 
@@ -660,7 +698,7 @@ h1 {
 
 
 
-.colorAllimages img {
+.colorAllimages {
   width: 246px;
   height: 264px;
 
@@ -752,5 +790,205 @@ h1 {
 
 
 
-/* ------------ css start------------------------- */
+/* ------------subscribe css start------------------------- */
+
+#Subscribe {
+  padding-top: 366px;
+  padding-bottom: 127px;
+}
+
+.updateFive h2 {
+  max-width: 584px;
+}
+
+.updateFive p {
+  padding-top: 11px;
+  padding-bottom: 59px;
+}
+
+.emailboth {
+  max-width: 616px;
+  height: 81px;
+  background: #FFF;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+
+.emailboth input {
+  width: 400px !important;
+  height: 81px;
+  background: #F5F5F5;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--textColor);
+  font-family: var(--fantFamily);
+  border-radius: 10px;
+  padding-left: 38px;
+}
+
+
+
+
+.emailboth a {
+  width: 196px;
+  background: var(--textColor);
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFF !important;
+  font-family: var(--fantFamily);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------------subscribe css end------------------------- */
+
+/* ------------footer css start------------------------- */
+
+#footer {
+  background: var(--textColor);
+  height: 499px;
+  position: relative;
+}
+
+.aboutText {
+  width: 99px;
+  height: 258px;
+  padding-top: 99px;
+}
+
+.aboutText h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #FBFBFB;
+  font-family: var(--fantFamily);
+  padding-bottom: 54px;
+}
+
+.aboutText p {
+
+  font-size: 16px;
+  font-weight: 400;
+  color: #FBFBFB;
+  font-family: var(--fantFamily);
+  padding-bottom: 25px;
+}
+
+
+.footertextPartAll {
+  display: flex;
+  gap: 102px;
+  justify-content: end;
+  padding-right: 116px;
+}
+
+.Resources {
+  width: 107px;
+  height: 222px;
+  padding-top: 99px;
+}
+
+.Resources h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #FBFBFB;
+  font-family: var(--fantFamily);
+  padding-bottom: 54px;
+}
+
+
+.Resources p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FBFBFB;
+  font-family: var(--fantFamily);
+  padding-bottom: 25px;
+}
+
+
+.Legals {
+  width: 135px;
+  height: 250px;
+  padding-top: 99px;
+
+}
+
+.Legals h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #FBFBFB;
+  font-family: var(--fantFamily);
+  padding-bottom: 54px;
+}
+
+.Legals p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FBFBFB;
+  font-family: var(--fantFamily);
+  padding-bottom: 25px;
+}
+
+
+.legalButton {
+  display: flex;
+  gap: 20px;
+  color: #FBFBFB;
+  font-size: 24px;
+}
+
+.footerimage {
+  max-width: 729px;
+  height: 551px;
+  position: absolute;
+  top: -90px;
+  left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------footer css end------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------------- css end------------------------- */
