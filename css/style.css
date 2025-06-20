@@ -699,9 +699,6 @@ h1 {
 }
 
 
-
-
-
 /* ------------ css Colors end------------------------- */
 
 /* -------------Testimonials css start------------------------- */
@@ -710,8 +707,6 @@ h1 {
   height: 712px;
   margin-top: 366px;
 }
-
-
 
 
 .updateFive {
@@ -729,6 +724,7 @@ h1 {
   padding: 52 px 22px 51px 40px;
   transition: all linear 0.4s;
   margin-right: 36px;
+  position: relative;
 }
 
 .single_slider_items:hover {
@@ -793,21 +789,44 @@ h1 {
 }
 
 
-/* .testimonialtext {
-  display: flex;
-  gap: 36px;
-} */
+.prr {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid var(--textColor);
+  font-size: 14px;
+  color: var(--textColor);
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+ transition: all linear 0.4s;
+ position: absolute;
+ bottom: -100px;
+ left: 50%;
+ transform: translate(-50%);
+}
+
+.prr:hover{
+  background: var(--textColor);
+  color: #FFF !important;
+}
+
+.pr {
+  left: 50%;
+}
+
+.nr {
+  left: 55%;
+}
 
 
 /* -------------Testimonials css end------------------------- */
 
 
-
-
 /* ------------subscribe css start------------------------- */
 
 #Subscribe {
-  padding-top: 366px;
+  padding-top: 121px;
   padding-bottom: 127px;
 }
 
@@ -829,7 +848,6 @@ h1 {
   margin: 0 auto;
 }
 
-
 .emailboth input {
   width: 400px !important;
   height: 81px;
@@ -842,8 +860,6 @@ h1 {
   border-radius: 10px;
   padding-left: 38px;
 }
-
-
 
 
 .emailboth a {
@@ -962,21 +978,6 @@ h1 {
   top: -90px;
   left: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

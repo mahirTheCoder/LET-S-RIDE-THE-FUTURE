@@ -16,7 +16,7 @@ $('.testimonialtext').slick({
   infinite: true,
   slidesToShow: 3,
   slidesToScroll: 3,
-  prevArrow: '<i class="fa-solid prr fa-arrow-left"></i>',
-  nextArrow: '<i class="fa-solid  prr fa-arrow-right"></i>',
+  prevArrow: '<i class="fa-solid prr pr fa-arrow-left"></i>',
+  nextArrow: '<i class="fa-solid  prr  nr fa-arrow-right"></i>',
 });
 		
