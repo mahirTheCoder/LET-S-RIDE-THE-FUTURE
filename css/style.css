@@ -560,8 +560,7 @@ h1 {
   max-width: 349px;
 }
 
-.accessoriesTextparttwo
- {
+.accessoriesTextparttwo {
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -712,46 +711,45 @@ h1 {
   margin-top: 366px;
 }
 
-.testimonialtext h2 {
 
-  max-width: 303px;
-  font-size: 50px;
-  font-weight: 700;
-  color: var(--textColor);
-  font-family: var(--fantFamily);
+
+
+.updateFive {
   padding-top: 78px;
-  margin: 0 auto;
   padding-bottom: 41px;
 
 }
 
 
-.slidertext {
+.single_slider_items {
   max-width: 360px;
   height: 366px;
   border: 1px solid #D8D8D8;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   border-radius: 10px;
+  padding: 52 px 22px 51px 40px;
+  transition: all linear 0.4s;
+  margin-right: 36px;
+}
+
+.single_slider_items:hover {
+  background: #FFF;
+  border: transparent;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 
 }
 
-
-.star {
-  text-align: center;
-  padding-top: 52px;
-  padding-bottom: 12px;
-}
-
-.star button {
-  border: none;
-  background: transparent;
-  color: #FE8B75;
+.single_slider_items ul {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
   font-size: 18px;
-
+  color: #FE8B75 !important;
+  padding-top: 52px;
+  padding-left: 0;
 }
 
 
-.slidertext p {
+.single_slider_items p {
   width: 304px;
   height: 140px;
   font-size: 20px;
@@ -759,29 +757,46 @@ h1 {
   color: var(--textColor);
   font-family: var(--fantFamily);
   margin: 0 auto;
-  padding-bottom: 54px;
+  
 
 }
 
+.sliderimagesText .img {
+  width: 48px;
+  height: 48px;
+}
 
-
-.sliderText h6 {
+.sliderimagesText .text h2 {
   font-size: 16px;
   font-weight: 400;
   color: var(--textColor);
   font-family: var(--fantFamily);
+  width: fit-content;
+
 }
 
-.sliderText p {
+.sliderimagesText .text p {
   font-size: 14px;
   font-weight: 400;
   color: var(--textColor);
   font-family: var(--fantFamily);
+  width: fit-content;
 }
 
 
+.sliderimagesText {
+  display: flex;
+  gap: 20px;
+ width: fit-content;
+ margin: 0 auto;
+ padding-top: 47px;
+}
 
 
+/* .testimonialtext {
+  display: flex;
+  gap: 36px;
+} */
 
 
 /* -------------Testimonials css end------------------------- */

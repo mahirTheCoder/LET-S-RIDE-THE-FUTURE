@@ -12,9 +12,11 @@ AOS.init();
 
 // slick slider default code 
 
-$('.slidertext').slick({
+$('.testimonialtext').slick({
   infinite: true,
   slidesToShow: 3,
-  slidesToScroll: 3
+  slidesToScroll: 3,
+  prevArrow: '<i class="fa-solid prr fa-arrow-left"></i>',
+  nextArrow: '<i class="fa-solid  prr fa-arrow-right"></i>',
 });
 		
